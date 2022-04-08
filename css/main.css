@@ -1,0 +1,47 @@
+:root{
+    --azul: #0033ab;
+    --branco: #FFFFFF;
+}
+body{
+    background: var(--branco);
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--azul);
+}
+.logo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: var(--azul);
+    font-size: 40px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: var(--azul);
+    margin-right: 10px;
+}
+a:hover{
+    font-weight: 600;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagem-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("/img/D_NQ_NP_916443-MLB27861608082_072018-O.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.titulo{
+    font-size: 40px;
+
+}
+.imagem-principal .descricao{
+    margin-bottom: 40px;
+}
