@@ -38,10 +38,47 @@ header .container{
     justify-content: center;
     align-items: flex-start;
 }
-.titulo{
+.imagem-principal .titulo{
+    margin-top: 15%;
     font-size: 40px;
-
+    color: white;
 }
 .imagem-principal .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
+    color: #FFFFFF;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .3s ease all;
+}
+.botao:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--azul);
+}
+.botao i {
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+.imagem-principal .containe{
+    width: 70%;
+}
+
+.box-video{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-video{
+    margin-top: 5px;
 }
